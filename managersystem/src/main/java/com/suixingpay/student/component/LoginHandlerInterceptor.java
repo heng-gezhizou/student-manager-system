@@ -15,7 +15,6 @@ import javax.servlet.http.HttpServletResponse;
  * @author:jiahongjie
  */
 public class LoginHandlerInterceptor implements HandlerInterceptor {
-
     @Override
     public void afterCompletion(HttpServletRequest request, HttpServletResponse response, Object handler, Exception ex) throws Exception {
         Object user = request.getSession().getAttribute("userName");

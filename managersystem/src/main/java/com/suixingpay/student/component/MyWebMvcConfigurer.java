@@ -27,7 +27,6 @@ public abstract class MyWebMvcConfigurer implements WebMvcConfigurer {
                 .addPathPatterns("/**")
                 .excludePathPatterns("/login","/index.html","/user/login")
                 .excludePathPatterns("/Student/**");
-
     }
 
 
